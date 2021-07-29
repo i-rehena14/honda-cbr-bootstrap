@@ -17,12 +17,41 @@
 
 <body>
     <header>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark pt-5 justify-content-end" id="header-bg">
+            <div class="">
+                <button class="navbar-toggler me-5 mt-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white me-lg-5" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white me-lg-5" href="#featured">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white me-lg-5" href="#clients">News</a>
+                        </li>
+                        <li class="nav-item text-white">
+                            <a class="nav-link text-white me-lg-5" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+
+                    <button class="btn btn-outline-success text-white me-5" id="bg-button" type="submit">Login</button>
+                </div>
+            </div>
+        </nav>
         <!-- header section -->
-        <section class="container w-100 h-100 p-4 p-lg-5 d-lg-flex text-white fw-light" id="header-bg">
+        <section class="w-100 h-100 p-4 p-lg-5 d-lg-flex text-white fw-light" id="header-bg">
             <div class="p-2 ps-lg-5 pt-lg-5 w-100">
-                <p>Computer-controlled digital transistorized with electronic advance</p>
+                <p class="">Computer-controlled digital transistorized with electronic advance</p>
                 <h1 class="fw-bold">Honda CBR 300R</h1>
-                <p class="">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                <p class="text-light">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                    Velit
                     officia consequat
                     duis
                     enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
@@ -60,7 +89,7 @@
     </header>
     <main>
         <!-- feature section -->
-        <section class="container">
+        <section class="container" id="featured">
             <div class="pt-5 text-center">
                 <h1 class="fw-bold">Featured Bikes 2021</h1>
                 <p class="fw-bold" id="bg">Best Bike Collection</p>
@@ -72,7 +101,7 @@
             </div>
         </section>
         <!-- happy clients section -->
-        <section class="container pb-5 mb-5">
+        <section class="container pb-5 mb-5" id="clients">
             <h1 class="fs-1 fw-bold text-center pb-5">Happy <span class="" id="bg">Clients says</span></h1>
             <div class="container px-4">
                 <div class="row gx-5 row-cols-1 row-cols-sm-2 row-cols-lg-3">
@@ -252,7 +281,7 @@
                 </form>
             </div>
             <!-- contact -->
-            <div class="p-3 mb-2 bg-light w-100 m-lg-2 border border-2 rounded-2">
+            <div class="p-3 mb-2 bg-light w-100 m-lg-2 border border-2 rounded-2" id="contact">
                 <h1 class="text-center p-3 text-white border border-1 rounded-2" id="bg-button">Contact Us</h1>
                 <div class="p-4 text-danger">
                     <div class="d-flex">
